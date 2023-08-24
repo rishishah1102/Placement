@@ -1,0 +1,24 @@
+What is Java? 
+    -> The java is programming language which was developed in 1995 but at present it is owned by oracle. It has multiple paradigms such as OOPS programming, functional programming and imperative programming.
+
+What is OOPS? 
+    -> The language which deal with classes and objects is known as OOPS
+
+What is functional programming language?
+    -> The code which is made up of functions and it returns the same output for a given input is known as functional programming.
+    -> In functional programming the data(variables) and functions are written seperated because debugging is really easy.
+    -> It generally do not allow to change the states of data.
+
+What is imperative programming language?
+    -> The imperative programming is a type of programming language in which the set of instruction are executed in a particular or linear fashion. It highly focuses on what to do and how to do.
+
+What is procedural programming language?
+    -> The procedural programming language involves breaking down a program into smaller, reusable procedures or functions. These procedures which are imperative statements are than grouped together to carry out specific task. 
+    -> The code is structured and reusable.
+    -> It is a subset of imperative programming where the instructions are executed in a linear fashion.
+
+What is declarative programming language?
+    -> The declarative programming language is a type of language which focuses on what you want to achieve rather than how you want to achieve.
+    -> Non procedural languages are subset of declarative language.
+    -> Here we write a code keeping end result in mind but how it has actually occured we are not into that.
+    -> The best examples for it is SQL, HTML, CSS etc.
