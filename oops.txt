@@ -70,7 +70,7 @@ Encapsulation
 Abstraction 
     ->  The data abstraction is the process by which we can define an abstract blue print. 
 
-    -> eg :- Consider there is a animal class. This class is abstract because we can that there would be an animal. But when we use horse than we know that horse is a animal.
+    -> eg :- Consider there is a animal class. This class is abstract because we thought that there would be an animal. But when we use horse than we know that horse is a animal.
 
     -> This is achieved by two ways:-
         -> Abstract Class
@@ -78,7 +78,7 @@ Abstraction
 
         -> Abstract Class:- An abstract class must be declared with an abstract keyword.It can have abstract and non-abstract methods. It cannot be instantiated. It can have constructors and static methods also. It can have final methods which will force the subclass not to change the body of the method.
         
-        -> Interfaces:- All the fields in interfaces are public, static and final by default. All methods are public & abstract by default. A class that implements an interface must implement all the methods declared in the interface. Interfaces support the functionality of multiple inheritance. 
+        -> Interfaces:- All the fields in interfaces are public, static and final by default. All methods are public & abstract by default. A class that implements an interface must implement all the methods declared in the interface. Interfaces support the functionality of multiple interface. 
             -> The multiple interface is supported in java because in interface we just define the properties and methods but the actual implementation is done in the implemented class. So no chance of ambiguity.
 
 static

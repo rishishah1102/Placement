@@ -2,7 +2,7 @@ What is Java?
     -> The java is programming language which was developed in 1995 but at present it is owned by oracle. It has multiple paradigms such as OOPS programming, functional programming and imperative programming.
 
 What is OOPS? 
-    -> The language which deal with classes and objects is known as OOPS
+    -> The programming language which deal with classes and objects is known as OOPS
 
 What is functional programming language?
     -> The code which is made up of functions and it returns the same output for a given input is known as functional programming.

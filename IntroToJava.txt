@@ -1,4 +1,4 @@
-The java development kit is required to java programs. The jdk is the software which allows the programmer to develop the java program.
+The java development kit is required to run java programs. The jdk is the software which allows the programmer to develop the java program.
 
 What is jdk?
 -> The jdk is java development kit which contain the tools and jre.
