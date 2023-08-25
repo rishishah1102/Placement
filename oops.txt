@@ -66,6 +66,8 @@ Access Modifiers
 
 Encapsulation
     -> The encapsulation means binding data into one part. Here we do it by binding in a class. Also the data hiding is done through access modifiers.
+    -> The way of wrapping or combining the properties and methods into a single entity called class is known as encapsulation.
+    -> There is a restricted access to some components of objects in encapsulation. 
 
 Abstraction 
     ->  The data abstraction is the process by which we can define an abstract blue print.
