@@ -68,7 +68,9 @@ Encapsulation
     -> The encapsulation means binding data into one part. Here we do it by binding in a class. Also the data hiding is done through access modifiers.
 
 Abstraction 
-    ->  The data abstraction is the process by which we can define an abstract blue print. 
+    ->  The data abstraction is the process by which we can define an abstract blue print.
+    -> The abstraction is a concept which hides the internal implementation of an object and it only shows the necessary features of the object.
+    -> It is mainly focused upon what it do rather than how will it do.
 
     -> eg :- Consider there is a animal class. This class is abstract because we thought that there would be an animal. But when we use horse than we know that horse is a animal.
 
