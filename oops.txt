@@ -93,3 +93,6 @@ static
 
 Serialization
     -> Serialization is the process of writing the state of an object to a byte stream.
+
+Super
+    -> The super keyword is used to access the members of the super class.
