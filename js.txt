@@ -1,0 +1,40 @@
+JS
+    -> The javascript is a lightweight client scripting language and is supported by all the browsers. It is highly interactive when used with HTML.
+
+Closures 
+    -> The functions which are grouped together with reference of its surrounding state known as lexical environment are called closures.
+    -> It is useful in event handling, callbacks, etc.
+    -> eg:- 
+    function outerFunction() {
+        let outerVar = 10;
+        function innerFunction() {
+            console.log(outerVar); // Inner function "closes over" outerVar
+        }
+        outerVar = 20; // now this will print 20 in innerfunction because the reference(lexical environment) is passed in closures
+        return innerFunction;
+    }
+    const closure = outerFunction(); // The returned function forms a closure
+    closure(); // Outputs: 10
+
+Functions 
+    -> There are four different types of functions in javascript:-
+        - Named Function: The function whose name is declared at the time of definition is known as named function.
+        - Anonymous Function: The function whose name is not declared at the time of definition is known as anonymous function.
+        - Arrow Function: The arrow functions are type of anonymous function which 
+        - Callback Function: The function which is passed as an arguement to another function is known as callback function.
+        - Higher Order Function: The function in which one or more functions are passed as an argument or they can return functions is known as higher order functions. eg: map, filter, reduce, etc.
+
+Hoisting
+    -> It is concept where all the declarations appears to be on the top of the code before execution.
+    -> The hoisting will occur only in var variable and before they are initialised.
+    eg-
+    console.log(a); // This is also hoisting and will print undefined
+    hoisting(); // This is hoisting and this will run without any error.
+    function hoisting() {
+        let outerVar = 10;
+        console.log(outerVar);
+    }
+
+    var a; // this is perfect hoisting
+    var a = 9; // This is also hoisting but in above console of a it will print undefined because it is initialised here.
+    console.log(a); // This will print 9
