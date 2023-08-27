@@ -3,6 +3,7 @@ JS
 
 Closures 
     -> The functions which are grouped together with reference of its surrounding state known as lexical environment are called closures.
+    -> A closure is a function that has access to variables from its outer function even after the outer function has finished executing.
     -> It is useful in event handling, callbacks, etc.
     -> eg:- 
     function outerFunction() {
@@ -38,3 +39,29 @@ Hoisting
     var a; // this is perfect hoisting
     var a = 9; // This is also hoisting but in above console of a it will print undefined because it is initialised here.
     console.log(a); // This will print 9
+
+DOM
+    -> The DOM stands for document object model. The dom represents the structure of webpage as objects and it is in the form of tree like structure with html tag as root node.
+
+Asynchronous Programming
+    -> The programming which does not affect the execution of another tasks and the other tasks do not have to wait until the execution of asynchronous task is known as asynchronous programming.
+    -> There are three ways to handle the asynchronous tasks they are
+        - Callbacks
+        - Promises
+        - Async / Await
+    -> Callbacks:-
+        -> The callbacks can lead to callback hell and were traditionally use to handle the asynchronous tasks. The callback hell are the nested callbacks which affects the readability and code maintainbility.
+    -> Promises
+        -> So the new way to handle the asynchronous programming is to write Promises.
+        -> The promises are the solutions to callback hell. 
+        -> Promise are the objects which represents the completion or failures of asynchronous operation.
+        -> The promise object have two properties 
+            - State (either fulfilled or pending)
+            - result (what we want as output)
+        -> If it is fulfilled then we can either resolve or reject the promise. 
+        ->To handle the resolve and reject we use .then and .catch of promise.
+    -> Async/Await
+        -> The async/await are the easier way to handle the asynchronous tasks. 
+        -> Rather than writing the whole code for promise it just provide a simple way to write promises.
+        -> Async makes a function return a new Promise
+        -> Await makes a function wait for the result of Promise
