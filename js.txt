@@ -1,5 +1,8 @@
 JS
-    -> The javascript is a lightweight client scripting language and is supported by all the browsers. It is highly interactive when used with HTML.
+    -> The javascript is a lightweight client side scripting language and is supported by all the browsers. 
+    -> It is single threaded, non blocking and asynchronous language.
+    -> It is highly interactive when used with HTML.
+    -> The heap memory is used for memory allocation and stack memory is used for storing the function calls.
 
 Closures 
     -> The functions which are grouped together with reference of its surrounding state known as lexical environment are called closures.
@@ -65,3 +68,16 @@ Asynchronous Programming
         -> Rather than writing the whole code for promise it just provide a simple way to write promises.
         -> Async makes a function return a new Promise
         -> Await makes a function wait for the result of Promise
+
+Local Storage and Session Storage
+    -> The local storage and session storage are used to store key-value pairs in users browser. 
+    -> The data inside the session storage will only persist until a session.
+    -> The data inside the local storage will persist even after a session.
+
+Event Loop
+    -> The event loop is a concept which tells how the program is executed. 
+    -> It consist of tasks queue, call stacks and web api.
+    -> The task queue is a long queue of all the statements and function.
+    -> The javascript takes one statment at a time in call stack and executes it.
+    -> If there are nested functions then there is a stack of functions in call stack.
+    -> If there is async functions then these fucntions will wait inside the web api untill it gets executed and the output it will be pushed into task queue and the event loop will take the result in call stack only when the task queue is empty and will do necessary operation.
