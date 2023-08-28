@@ -17,6 +17,7 @@ This keyword :-
 Constructors :-
     ->The constructors are like functions in java which is used to create an instance of class. They dont have any return type and their names are same as class name. They just constructs the objects.
 
+Polymorphism :-
     ->Polymorphism means many forms. It is the ability by which we can display message in more than one form. There are two types of polymorphism 
         -> function overloading (compile time polymorphism)
         -> function overidding (run-time polymorphism)

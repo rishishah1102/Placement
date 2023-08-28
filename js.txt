@@ -103,3 +103,9 @@ NodeJs
     -> One can run js code without integrating js with html.
     -> It allows server side scripting in js.
     -> It is non blocking, single threaded, efficient, highly scalable, etc.
+
+
+
+TDD
+NORMALIZATION
+DSA
