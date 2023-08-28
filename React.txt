@@ -1,0 +1,71 @@
+React
+    -> The reactjs is an open source frontend javascript library which helps to build great UI.
+
+Advantages
+    -> Virtual DOM
+        -> It has virtual dom which is a shadow of real dom, whenever there is change in state then react will update the virtual dom.
+        -> In other way, it will only change the component in which the change has occured rather than changing the whole page.
+    -> One Way Data Binding
+        -> It has one way data binding which means the data is passed from parent to child.
+    -> Efficient
+        -> It is very fast than all the other frameworks and libraries.
+
+JSX
+    -> The jsx stands for javascript XML. It is a combination of html written inside the javascript.
+
+Components
+    -> The react are the reusable blocks of code similar to js functions but only difference is they return html.
+
+Functional Component
+    -> The functional component are simple functions but they return jsx code.
+    -> They are stateless component and do not have react lifecycle.
+
+Class Component
+    -> The class component is simple es6 class extended with React component class.
+    -> They are state component and have react lifecycle.
+
+Render()
+    -> The render method is used in class components which runs the jsx code of that particular component. 
+    -> It is basically used to run html code.
+
+Props
+    -> The props are used to transfer data from a parent component to a child.
+    -> They are read-only means immutable.
+
+State
+    -> The state are used to manage a data inside a component itself.
+    -> The are mutable
+
+Key
+    -> The key attribute is used to give each item in a list a unique identifier.
+    -> It helps React efficiently update the DOM when the list changes by allowing it to track which items were added, removed, or re-ordered.
+
+Hooks
+    -> The hooks means hold into.
+    -> The hooks are the functions which hooks state or lifecycle of react from functional components without writing class components.
+
+UseState
+    -> UseState is a hook used for managing state within functional components.
+
+UseEffect
+    -> UseEffect is a hook which is used to manage side effect in functional components.
+    -> The side effects refers to data fetching, event handling, etc.
+
+UseContext
+    -> UseContext is a hook which passes the data to child component without prop drilling. Its alternative of redux.
+
+UseMemo
+    -> UseMemo hook is a hook which is used to optimize the code without unnecessary rerendering the component.
+
+UseCallback
+    -> UseCallback is a hook used to optimize callback functions in functional components. 
+    -> It's particularly useful when passing callbacks to child components, preventing unnecessary re-rendering of those components due to changing callbacks.
+
+UseRef
+    -> UseRef is a hook which is used to create mutable objects that persists even after a component renders.
+
+Spread operator
+    -> The spread operator allows us to quickly copy array or object into another array or object.
+
+Destructure 
+    -> The destructuring is a concept by which we can extract particular element or property of an array or object and assign to a variable.
