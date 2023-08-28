@@ -24,7 +24,7 @@ Functions
     -> There are four different types of functions in javascript:-
         - Named Function: The function whose name is declared at the time of definition is known as named function.
         - Anonymous Function: The function whose name is not declared at the time of definition is known as anonymous function.
-        - Arrow Function: The arrow functions are type of anonymous function which 
+        - Arrow Function: The arrow functions are type of anonymous function with ease of syntax.
         - Callback Function: The function which is passed as an arguement to another function is known as callback function.
         - Higher Order Function: The function in which one or more functions are passed as an argument or they can return functions is known as higher order functions. eg: map, filter, reduce, etc.
 
@@ -57,7 +57,7 @@ Asynchronous Programming
     -> Promises
         -> So the new way to handle the asynchronous programming is to write Promises.
         -> The promises are the solutions to callback hell. 
-        -> Promise are the objects which represents the completion or failures of asynchronous operation.
+        -> Promise are the objects which represents the completion or failures of asynchronous tasks.
         -> The promise object have two properties 
             - State (either fulfilled or pending)
             - result (what we want as output)
@@ -81,3 +81,25 @@ Event Loop
     -> The javascript takes one statment at a time in call stack and executes it.
     -> If there are nested functions then there is a stack of functions in call stack.
     -> If there is async functions then these fucntions will wait inside the web api untill it gets executed and the output it will be pushed into task queue and the event loop will take the result in call stack only when the task queue is empty and will do necessary operation.
+
+Library vs Framework vs Module vs Package
+    -> Library
+        -> The library is a collection of prewritten functions and code that developer can use to perform specific task.
+        -> Here the developer is calling the inbuilt functions.
+
+    -> Framework
+        -> The framework is a like a software which provides an architecture to develop our application.
+        -> Here the developer will write code and the framework will call it.
+
+    -> Module
+        -> The module is a small file which contians the collection of classes, functions and variables.
+        -> The module acts as a reusable component.
+
+    -> Package
+        -> The package is a collection of modules, libraries and plugins grouped together in a hierarchy.
+
+NodeJs
+    -> The nodejs is a runtime environment for javascript.
+    -> One can run js code without integrating js with html.
+    -> It allows server side scripting in js.
+    -> It is non blocking, single threaded, efficient, highly scalable, etc.
