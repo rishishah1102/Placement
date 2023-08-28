@@ -80,7 +80,7 @@ Event Loop
     -> The task queue is a long queue of all the statements and function.
     -> The javascript takes one statment at a time in call stack and executes it.
     -> If there are nested functions then there is a stack of functions in call stack.
-    -> If there is async functions then these fucntions will wait inside the web api untill it gets executed and the output it will be pushed into task queue and the event loop will take the result in call stack only when the task queue is empty and will do necessary operation.
+    -> If there is async functions then these functions will wait inside the web api untill it gets executed and the output it will be pushed into task queue and the event loop will take the result in call stack only when the task queue is empty and will do necessary operation.
 
 Library vs Framework vs Module vs Package
     -> Library
@@ -103,9 +103,3 @@ NodeJs
     -> One can run js code without integrating js with html.
     -> It allows server side scripting in js.
     -> It is non blocking, single threaded, efficient, highly scalable, etc.
-
-
-
-TDD
-NORMALIZATION
-DSA
