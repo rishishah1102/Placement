@@ -34,7 +34,7 @@ Props
 
 State
     -> The state are used to manage a data inside a component itself.
-    -> The are mutable
+    -> They are mutable
 
 Key
     -> The key attribute is used to give each item in a list a unique identifier.
