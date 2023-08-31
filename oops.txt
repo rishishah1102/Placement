@@ -93,7 +93,10 @@ static
     -> The static block is used to initialize the static data member. It is excuted before main method at the time of class loading.
 
 Serialization
-    -> Serialization is the process of writing the state of an object to a byte stream.
+    -> Serialization is the process of converting the state of an object to a byte stream.
+    -> It is used when we want to use same object and do not want to redeclare the objects.
+    -> This can achieved by storing the object in database or in any file and to store the object we have to convert it into byte stream.
+    -> There is inbuilt package java.io.serializable.
 
 Super
     -> The super keyword is used to access the members of the super class.
