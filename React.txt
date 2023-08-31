@@ -14,7 +14,7 @@ JSX
     -> The jsx stands for javascript XML. It is a combination of html written inside the javascript.
 
 Components
-    -> The react are the reusable blocks of code similar to js functions but only difference is they return html.
+    -> The components are the reusable blocks of code similar to js functions but only difference is they return html.
 
 Functional Component
     -> The functional component are simple functions but they return jsx code.
