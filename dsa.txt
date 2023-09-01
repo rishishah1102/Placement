@@ -1,0 +1,9 @@
+Graph
+    -> The graph is a collection of two set V and E where V is a finite non empty sets of Vertices and E is a finite non empty sets of edges
+
+AVL Tree
+    -> The AVL tree is a balancing binary tree in which the difference of height of left subtree and right subtree should be less than or equal to 1 and more than or equal to -1.
+
+Hashing
+    -> Hashing is a data structure which which maps a key and value into hash table using hash function.
+    -> For a same input provided the hash function will produce same output.
