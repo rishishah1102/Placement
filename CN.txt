@@ -1,0 +1,44 @@
+CN
+    -> A computer network is a collection of interconnected devices that can communicate with each other, share resources, and exchange data.
+
+OSI Model
+    -> OSI model tell how an information is transferred from one computer to another computer in a network.
+    -> There seven layer of OSI model.
+        -> Physical
+        -> Data Link
+        -> Network
+        -> Transport
+        -> Session
+        -> Presentation
+        -> Application
+
+IP Address
+    -> The IP address are unique address which identify a device on local network. It identifies where the user is.
+
+MAC Address
+    -> The MAC address are unique address which identify a device on network. It identifies who the user is.
+
+Port Address
+    -> A port address or number is a way to identify a specific process on the internet.
+    -> eg:- An http request has come in out network then it will be redirected to port 80.
+    -> Each process has been assigned with a specific port number.
+
+DNS
+    -> The DNS stands for domain name system. It converts the domain names to IP address of websites.
+
+TCP
+    -> The TCP stands for Transmission Control Protocol.
+    -> It is connection Oriented protocol.
+    -> There is reliability of data means all the data sent will be received by the receiver.
+    -> The order in which the data was sent will be received by the receiver.
+    -> The speed is slow.
+    -> eg:- HTTP, SMTP, FTP, etc.
+
+UDP
+    -> The UDP stands for User Datagram Protocol.
+    -> It is connectionless protocol.
+    -> There is no reliability of data means it is not necessary that all the data send will be received by the receiver.
+    -> The order in which the data was sent shall not be received by the receiver.
+    -> The speed is fast.
+    -> eg:- DNS.
+
