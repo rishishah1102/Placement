@@ -1,9 +1,9 @@
 package DSAProblems;
 
-public class BST {
+public class HeightOfBST {
     Node root;
 
-    BST() {
+    HeightOfBST() {
         root = null;
     }
 
@@ -32,26 +32,19 @@ public class BST {
         return root;
     }
 
-    public void preorder(Node root) {
+    public int heigtOfTree(Node root) {
         if (root == null) {
-            return;
+            return 0;
         }
-        System.out.print(root.data + " -> ");
-        preorder(root.left);
-        preorder(root.right);
-    }
+        int leftHeight = heigtOfTree(root.left);
+        int rightHeight = heigtOfTree(root.right);
+        
 
-    public void inorder(Node root) {
-        if (root == null) {
-            return;
-        }
-        inorder(root.left);
-        System.out.print(root.data + " -> ");
-        inorder(root.right);
-    }
+        return leftHeight >= rightHeight ? leftHeight + 1 : rightHeight + 1;
+    }   
 
     public static void main(String[] args) {
-        BST tree = new BST();
+        HeightOfBST tree = new HeightOfBST();
         tree.root = tree.insert(tree.root, 50);
         tree.root = tree.insert(tree.root, 40);
         tree.root = tree.insert(tree.root, 90);
@@ -61,6 +54,9 @@ public class BST {
         tree.root = tree.insert(tree.root, 75);
         tree.root = tree.insert(tree.root, 105);
         tree.root = tree.insert(tree.root, 25);
-        tree.inorder(tree.root);
+        tree.root = tree.insert(tree.root, 15);
+        
+        int height = tree.heigtOfTree(tree.root);
+        System.out.println(height);
     }
 }
