@@ -5,7 +5,7 @@ package DSAProblems;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Problem2 {
+public class ElementsMoreThanFloorValue {
     public static void main(String[] args) {
         int arr[] = { 1, 9, 2, 3, 9, 1, 1, 9, 1 };
 

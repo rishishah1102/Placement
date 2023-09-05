@@ -4,7 +4,7 @@ package DSAProblems;
 import java.util.LinkedList;
 import java.util.Stack;
 
-public class Problem1 {
+public class ReverseLL {
     public static void main(String[] args) {
         LinkedList<Integer> ll = new LinkedList<>();
         Stack<Integer> stack = new Stack<>();

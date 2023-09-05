@@ -3,7 +3,7 @@ package DSAProblems;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Problem4 {
+public class PrintPath {
     public static void printPath(HashMap<String, String> map) {
         try {
             for (Map.Entry<String, String> m1 : map.entrySet()) {
