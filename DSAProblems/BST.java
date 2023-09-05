@@ -36,7 +36,7 @@ public class BST {
         if (root == null) {
             return;
         }
-        System.out.print(root.data + " -> ");
+        System.out.print(root.data + " ");
         preorder(root.left);
         preorder(root.right);
     }
@@ -46,8 +46,18 @@ public class BST {
             return;
         }
         inorder(root.left);
-        System.out.print(root.data + " -> ");
+        System.out.print(root.data + " ");
         inorder(root.right);
+    }
+
+    public void postorder(Node root) {
+        if (root == null) {
+            return;
+        }
+
+        postorder(root.left);
+        postorder(root.right);
+        System.out.print(root.data + " ");
     }
 
     public static void main(String[] args) {
@@ -61,6 +71,12 @@ public class BST {
         tree.root = tree.insert(tree.root, 75);
         tree.root = tree.insert(tree.root, 105);
         tree.root = tree.insert(tree.root, 25);
+
+        tree.preorder(tree.root);
+        System.out.println();
         tree.inorder(tree.root);
+        System.out.println();
+        tree.postorder(tree.root);
+        System.out.println();
     }
 }
