@@ -25,8 +25,9 @@ class NthElementFromEndOfLL {
         Node temp = head;
 
         // get the (len-N+1)th node from the beginning
-        for (int i = 1; i < len - N + 1; i++)
+        for (int i = 1; i < len - N + 1; i++) {
             temp = temp.next;
+        }
 
         System.out.println(temp.data);
     }
