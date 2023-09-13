@@ -24,7 +24,7 @@ Polymorphism :-
 
     ->We need polymorphism because ...
 
-    ->The function overloading means we can write the functions with names but with different functionality.
+    ->The function overloading means we can write the functions with names but with different parameters and return type.
 
     -> Runtime polymorphism is also known as dynamic polymorphism. Function overriding is an example of runtime polymorphism. Function overriding means when the child class contains the method which is already present in the parent class. Hence, the child class overrides the method of the parent class.
 
