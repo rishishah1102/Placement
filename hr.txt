@@ -1,0 +1,12 @@
+.Tell Me About Yourself
+    -> Thank You Sir/Ma'am for giving this great opportunity. My name is Rishabh Shah and I am a passionate IT student with a strong academic background with focus upon web development technologies such ReactJs, NodeJs, ExpressJS and MongoDB. During my academic journey, I have gained a valuable experience and knowledge in these technologies which allows me to build dynamic and responsive and web applications. I have gained 99.56%tile in 10th standard, 98.43%tile in 12th standard and currently my CPI is 8.52 aggregrate. As a fresher, I want a challenging career opportunity where I can utilize my skills and knowledge for the betterment and the growth of the company.
+
+Why this company?
+    -> I have go through the website and I have also some of the seniors who are working in the company and who have worked in this company and I have got the positive feedback saying as fresher you will have opportunity to learn and grow and there is no superior inferior kind of thing so yeah thats why I have chosen this company.
+
+How are you best fit for the company?
+    -> I think I am best fit for the company because there is match between the company's values and mine values, the skills, and the experience I haved gained. Apart from it, I also have teamwork, innovation and problem solving skills so I think it would be best fit for this role in this company.
+
+What are your strengths and weakness?
+    -> My key strengts are effective and clear communication and teamwork. I excel in open and clear communication ensuring every one is on same page and along with this my collaborative nature helps to complete given task in time.
+    -> My one of weakness is I need perfectionism. Though I have learn how to manage it using time management activites and this has made me progressive in career.
